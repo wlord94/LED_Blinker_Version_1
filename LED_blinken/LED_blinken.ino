@@ -11,7 +11,7 @@
 
 void setup()
 {
-  pinMode(3, OUTPUT);   //LED
+  pinMode(grueneLED, OUTPUT);   //LED
   Serial.begin(9600);   //Kontrollanzeige
 
 }
