@@ -6,6 +6,8 @@
  *
 */
 
+#define grueneLED 3   //grüne LED an Pin 3
+
 
 void setup()
 {
@@ -18,10 +20,10 @@ void loop()
 {
 
   /******************* LED im sekundentakt an- und ausschalten ***************/
-  digitalWrite(3, HIGH);    //LED an
+  digitalWrite(grueneLED, HIGH);    //LED an
   Serial.println("LED an ");
   delay(1000);
-  digitalWrite(3, LOW);
+  digitalWrite(grueneLED, LOW);
   Serial.println("LED aus ");   //LED aus
   delay(1000);
 
